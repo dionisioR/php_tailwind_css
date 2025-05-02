@@ -1,0 +1,8 @@
+https://tailwindcss.com/
+https://tailwindcss.com/docs/installation/play-cdn
+
+extensão: Tailwind CSS IntelliSense
+
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+npx tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch
