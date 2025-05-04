@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/png"
+    />
+  </head>
+  <body class="bg-gradient-to-br h-screen from-cyan-600 to-fuchsia-700">
+    <div class="h-screen flex items-center justify-center">
+      <div class="bg-white rounded-2xl w-[450px] shadow-minha-sombra-normal hover:shadow-minha-sombra-hover transition-all duration-300 ease-in-out">
+        <h1 class="text-[42px] font-bold text-center text-gray-800 px-8 pt-6">
+          Login
+        </h1>
+        <hr class="text-black" />
+
+        <div class="p-10">
+          <form action="#" method="post">
+            <div class="mb-4">
+              <label class="block text-gray-500 text-[22px]" for="email">Username</label>
+              <input class="border-b w-full p-2 border-gray-300 focus:outline-none focus:border-fuchsia-700" type="email" name="email" id="email" required />
+            </div>
+
+            <div class="mb-10">
+              <label class="block text-gray-500 text-[22px]" for="password">Password</label>
+              <input class="border-b w-full p-2 border-gray-300 focus:outline-none focus:border-fuchsia-700" type="password" name="password" id="password" required />
+            </div>
+
+            <button type="submit" class="bg-cyan-600 w-full rounded-full text-xl p-3 hover:bg-cyan-400 text-white hover:text-black">Login</button>
+
+            <div class="mt-10 text-center text-2xl">
+                <span class="text-gray-500 me-1">Not a member?</span>
+                <a href="#" class="text-fuchsia-800 underline hover:text-fuchsia-400">Sign up</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
